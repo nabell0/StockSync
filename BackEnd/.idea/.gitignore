@@ -6,4 +6,6 @@
 
 .vscode/
 
+# 외부 설정 파일 무시 (보안 및 환경 변수 포함)
 src/main/resources/application.properties
+src/main/resources/application*.yml
